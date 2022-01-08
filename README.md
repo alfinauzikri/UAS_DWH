@@ -9,3 +9,5 @@ This application was created as a final semester exam project. If there are impe
 - Codeigniter 3.1.11 HMVC - https://github.com/alfinauzikri/CodeIgniter-HMVC
 - PHP-ML - https://php-ml.readthedocs.io/en/latest/machine-learning/regression/least-squares/
 - Bootstrap 5
+
+Test App : https://uasdwh.alfauzikri.my.id
