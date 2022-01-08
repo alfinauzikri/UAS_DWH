@@ -9,6 +9,7 @@ _This application was created as a final semester exam project. If there are sho
 ## Reference :
 - https://www.ijser.org/researchpaper/LEAST-SQUARES-METHODS-TO-FORECAST-SALES-FOR-A-COMPANY.pdf
 - https://www.youtube.com/watch?v=wkdcQy8fFSc
+- https://github.com/tamami-phb/forecast-d
 
 ## What's Inside?
 - Codeigniter 3.1.11 HMVC - https://github.com/alfinauzikri/CodeIgniter-HMVC
