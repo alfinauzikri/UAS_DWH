@@ -4,13 +4,13 @@
       Main
     </li>
     <li>
-      <a href="index.html"><i data-feather="home"></i>Dashboard</a>
+      <a href="<?= base_url() ?>"><i data-feather="home"></i>Dashboard</a>
     </li>
     <li class="sidebar-title">
       Tools
     </li>
     <li>
-      <a href="email.html"><i data-feather="edit"></i>Prediksi Penjualan</a>
+      <a href="<?= base_url('dwh/prediksi') ?>"><i data-feather="edit"></i>Prediksi Penjualan</a>
     </li>
     <!-- <li class="sidebar-title">
       Data

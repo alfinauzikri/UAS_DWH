@@ -19,7 +19,7 @@
 			<div class="card-body">
 				<h5 class="card-title">Data Penjualan</h5>
 				<!-- <p>Data ini diambil dari Tabel Fakta.</p> -->
-				<table id="dtable1" class="display" style="width:100%">
+				<table id="dtable1" class="table table-striped" style="width:100%">
 					<thead>
 						<tr>
 							<th><b>#</b></th>
@@ -45,7 +45,28 @@
 		<div class="card">
 			<div class="card-body">
 				<h5 class="card-title">Data Penjualan Beserta Prediksi</h5>
-				<p>A modern JavaScript charting library to build interactive charts and visualizations with simple API.</p>
+				<p>Prediksi harga disini memanfaatkan seluruh data yang ada di dalam tabel fakta yang sudah djumlahkan omset per harinya.</p>
+				<table id="dtable2" class="table table-striped" style="width:100%">
+					<thead>
+						<tr>
+							<th><b>#</b></th>
+							<th>Tanggal</th>
+							<th>Omset</th>
+							<th>Hasil Prediksi</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php $i = 1;
+						foreach ($predicted as $dt) { ?>
+							<tr>
+								<td><b><?= $i++ ?></b></td>
+								<td><?= $dt['waktu'] ?></td>
+								<td><?= '$' . $dt['omset'] ?></td>
+								<td><b><?= '$' . $dt['pre'] ?></b></td>
+							</tr>
+						<?php } ?>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div>
@@ -106,6 +127,8 @@
 			bLengthChange: false,
 			info: false
 		});
+
+		$('#dtable2').DataTable();
 
 	})
 </script>
