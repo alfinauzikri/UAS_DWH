@@ -20,7 +20,7 @@
                     <div class="mt-4 alert alert-warning alert-dismissible fade show" role="alert">
                         Anda akan mendapatkan omset sebesar <b>$<?= $this->session->flashdata('hasil');
                                                                 ?></b> di tanggal <?= $this->session->flashdata('tgl');
-                                                                                ?>, berdasarkan perhitungan dan prediksi aplikasi.
+                                                                                    ?>, berdasarkan perhitungan dan prediksi aplikasi.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 <?php } ?>
