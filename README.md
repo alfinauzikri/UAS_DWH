@@ -13,6 +13,4 @@ _This application was created as a final semester exam project. If there are sho
 ## What's Inside?
 - Codeigniter 3.1.11 HMVC - https://github.com/alfinauzikri/CodeIgniter-HMVC
 - PHP-ML - https://php-ml.readthedocs.io/en/latest/machine-learning/regression/least-squares/
-- Bootstrap 5
-
-
+- Bootstrap 5 - https://getbootstrap.com/
