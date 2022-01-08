@@ -30,6 +30,7 @@ class ComposerStaticInitd88696e2a4603cee166fc79f1fcedfd8
         array (
             'Psr\\Log\\' => 8,
             'Prophecy\\' => 9,
+            'Phpml\\' => 6,
         ),
         'D' => 
         array (
@@ -68,6 +69,10 @@ class ComposerStaticInitd88696e2a4603cee166fc79f1fcedfd8
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'Phpml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-ai/php-ml/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

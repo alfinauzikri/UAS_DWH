@@ -12,7 +12,8 @@
 	},
 	"require": {
 		"php": ">=5.3.7",
-		"filp/whoops": "^2.5"
+		"filp/whoops": "^2.5",
+		"php-ai/php-ml": "^0.9.0"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
