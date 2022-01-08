@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | AUTO-LOADER
 | -------------------------------------------------------------------
 | This file specifies which systems should be loaded by default.
-|
+| Alfin
 | In order to keep the framework as light-weight as possible only the
 | absolute minimal resources are loaded by default. For example,
 | the database is not connected to automatically since no assumption
